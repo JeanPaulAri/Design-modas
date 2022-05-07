@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&family=Monoton&family=Noto+Sans:wght@100;300;400&family=Plaster&family=Sail&family=Sarina&family=Wallpoet&family=Water+Brush&display=swap");
+.header_section {
+  padding: 0;
+}
+
+.custom_nav {
+  border-radius: 20px;
+}
+
+.brand-1 {
+  font-family: "Wallpoet", cursive;
+  font-size: xx-large;
+}
+
+.brand-2 {
+  font-family: "Sarina", cursive;
+  font-size: small;
+}
+
+.brand-3 {
+  font-family: "Water Brush", cursive;
+  font-size: xx-large;
+}
+
+/*# sourceMappingURL=style.css.map */

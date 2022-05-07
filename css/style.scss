@@ -1,0 +1,68 @@
+$white:#FFFFFFFF;
+$black:#00000000;
+$COL1: #21EFA9FF;
+$COL2: #222831FF;
+$COL3: #F68634F9;
+$COL4: #9E41F6FD;
+$COL5: #1F2E62FF;
+$COLtext: #1f1f1f;
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Monoton&family=Noto+Sans:wght@100;300;400&family=Plaster&family=Sail&family=Sarina&family=Wallpoet&family=Water+Brush&display=swap');
+@mixin m1-font{
+  font-family: 'Noto Sans', sans-serif;
+}
+@mixin m2-font{
+  font-family: 'Wallpoet', cursive;
+}
+@mixin m3-font{
+  font-family: 'Monoton', cursive;
+}
+@mixin m4-font{
+  font-family: 'Megrim', cursive;
+}
+@mixin m5-font{
+  font-family: 'Sail', cursive;
+}
+@mixin m6-font{
+  font-family: 'Sarina', cursive;
+}
+@mixin m7-font{
+  font-family: 'Plaster', cursive;
+}
+@mixin m8-font{
+  font-family: 'Water Brush', cursive;
+}
+
+@mixin service_btn($col1, $col2, $pad1, $pad2, $bRadius) {
+  display: inline-block;
+  padding: $pad1 $pad2;
+  background-color: $col1;
+  color: $col2;
+  border-radius: $bRadius;
+  transition: all 0.3s;
+  border: none;
+
+  &:hover {
+    background-color: darken($color: $col1, $amount: 15);
+  }
+}
+//----header section----
+.header_section{
+  padding: 0;
+}
+.custom_nav{
+  border-radius: 20px;
+}
+//----------------------
+
+.brand-1{
+  @include m2-font();
+  font-size: xx-large;
+}
+.brand-2{
+  @include m6-font();
+  font-size: small;
+}
+.brand-3{
+  @include m8-font();
+  font-size: xx-large;
+}
