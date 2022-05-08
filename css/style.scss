@@ -7,6 +7,7 @@ $COL4: #9E41F6FD;
 $COL5: #1F2E62FF;
 $COLtext: #1f1f1f;
 @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Monoton&family=Noto+Sans:wght@100;300;400&family=Plaster&family=Sail&family=Sarina&family=Wallpoet&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 @mixin m1-font{
   font-family: 'Noto Sans', sans-serif;
 }
@@ -30,6 +31,9 @@ $COLtext: #1f1f1f;
 }
 @mixin m8-font{
   font-family: 'Water Brush', cursive;
+}
+@mixin m9-font{
+  font-family: 'Dancing Script', cursive;
 }
 
 @mixin service_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -63,21 +67,8 @@ $COLtext: #1f1f1f;
   font-size: small;
 }
 .brand-3{
-  @include m8-font();
-  font-size: x-large;
+  @include m9-font();
+  font-size: xx-large;
 }
-.over410 {
-  display: inline;
-}
-.below410 {
-  display: none;
-}
-@media screen and (max-width: 410px) {
-  .over410 {
-    display: none;
-  }
-  .below410 {
-    display: inline;
-  }
-}
+
 

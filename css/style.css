@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Megrim&family=Monoton&family=Noto+Sans:wght@100;300;400&family=Plaster&family=Sail&family=Sarina&family=Wallpoet&family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 .header_section {
   padding: 0;
 }
@@ -18,26 +19,8 @@
 }
 
 .brand-3 {
-  font-family: "Water Brush", cursive;
-  font-size: x-large;
-}
-
-.over410 {
-  display: inline;
-}
-
-.below410 {
-  display: none;
-}
-
-@media screen and (max-width: 410px) {
-  .over410 {
-    display: none;
-  }
-
-  .below410 {
-    display: inline;
-  }
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=style.css.map */
