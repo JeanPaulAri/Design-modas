@@ -64,5 +64,20 @@ $COLtext: #1f1f1f;
 }
 .brand-3{
   @include m8-font();
-  font-size: xx-large;
+  font-size: x-large;
 }
+.over410 {
+  display: inline;
+}
+.below410 {
+  display: none;
+}
+@media screen and (max-width: 410px) {
+  .over410 {
+    display: none;
+  }
+  .below410 {
+    display: inline;
+  }
+}
+
